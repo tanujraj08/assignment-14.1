@@ -1,0 +1,35 @@
+Ques 1:What is the difference between Internal Storage & External Storage?
+Ans:Internal Storage: By default, files saved to the internal storage are private
+    to application and other applications cannot access them.When the user uninstalls
+    application, these files are removed/deleted.App user also can't access them using
+    file manager even afterenabling "show hidden files" option in file manager.
+ 
+    External Storage: In built shared storage which is "accessible by the user by plugging
+                      in a USB cable and mounting it as a drive on a host computer.
+
+Ques 2:For how long the data resides in the cache?
+Ans:The data stays in cache memory untill we close the app or we clear cache data
+
+Ques 3:What are the critical Permissions and Normal Permissions? What are the examples of each?
+Ans:
+    Normal permission-The Normal permissions do not directly affect the user’s privacy. 
+    If application lists a normal permission in its manifest, then these permissions will 
+    be automatically granted by the system upon installation.
+    Some of the most common examples of normal permissions are given below.
+   ACCESS_LOCATION_EXTRA_COMMANDS
+   ACCESS_NETWORK_STATE
+   ACCESS_NOTIFICATION_POLICY
+   ACCESS_WIFI_STATE
+   BLUETOOTH
+
+  Critical Permission-Critical permission are the permissions which give application access to the user’s private
+  data or affect the system/other apps. If you list a dangerous permission in manifest then the user has to 
+  explicitly give permission to your application.
+  Some of the most common examples of critical permission are given below
+  READ_CALENDAR
+  WRITE_CALENDAR
+  CAMERA
+  READ_CONTACTS
+  WRITE_CONTACTS
+  GET_ACCOUNTS
+  ACCESS_FINE_LOCATIOn
